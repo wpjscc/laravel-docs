@@ -1,102 +1,112 @@
-rootPage: "installation"
+rootPage: installation
 sections:
-  Prologue:
-      releases: 'Release Notes'
-      upgrade: 'Upgrade Guide'
-      contributions: 'Contribution Guide'
-  'Getting Started':
-      installation: Installation
-      configuration: Configuration
-      structure: 'Directory Structure'
-      frontend: Frontend
-      starter-kits: 'Starter Kits'
-      deployment: Deployment
-  'Architecture Concepts':
-      lifecycle: 'Request Lifecycle'
-      container: 'Service Container'
-      providers: 'Service Providers'
-      facades: Facades
-  'The Basics':
-      routing: Routing
-      middleware: Middleware
-      csrf: 'CSRF Protection'
-      controllers: Controllers
-      requests: Requests
-      responses: Responses
-      views: Views
-      blade: 'Blade Templates'
-      vite: 'Asset Bundling'
-      urls: 'URL Generation'
-      session: Session
-      validation: Validation
-      errors: 'Error Handling'
-      logging: Logging
-  'Digging Deeper':
-      artisan: 'Artisan Console'
-      broadcasting: Broadcasting
-      cache: Cache
-      collections: Collections
-      contracts: Contracts
-      events: Events
-      filesystem: 'File Storage'
-      helpers: Helpers
-      http-client: 'HTTP Client'
-      localization: Localization
-      mail: Mail
-      notifications: Notifications
-      packages: 'Package Development'
-      processes: Processes
-      queues: Queues
-      rate-limiting: 'Rate Limiting'
-      scheduling: 'Task Scheduling'
-  Security:
-      authentication: Authentication
-      authorization: Authorization
-      verification: 'Email Verification'
-      encryption: Encryption
-      hashing: Hashing
-      passwords: 'Password Reset'
-  Database:
-      database: 'Getting Started'
-      queries: 'Query Builder'
-      pagination: Pagination
-      migrations: Migrations
-      seeding: Seeding
-      redis: Redis
-  'Eloquent ORM':
-      eloquent: 'Getting Started'
-      eloquent-relationships: Relationships
-      eloquent-collections: Collections
-      eloquent-mutators: 'Mutators / Casts'
-      eloquent-resources: 'API Resources'
-      eloquent-serialization: Serialization
-      eloquent-factories: Factories
-  Testing:
-      testing: 'Getting Started'
-      http-tests: 'HTTP Tests'
-      console-tests: 'Console Tests'
-      dusk: 'Browser Tests'
-      database-testing: Database
-      mocking: Mocking
-  Packages:
-      'starter-kits#laravel-breeze': Breeze
-      billing: 'Cashier (Stripe)'
-      cashier-paddle: 'Cashier (Paddle)'
-      dusk: Dusk
-      envoy: Envoy
-      fortify: Fortify
-      homestead: Homestead
-      horizon: Horizon
-      'https://jetstream.laravel.com': Jetstream
-      mix: Mix
-      octane: Octane
-      passport: Passport
-      pennant: Pennant
-      pint: Pint
-      sail: Sail
-      sanctum: Sanctum
-      scout: Scout
-      socialite: Socialite
-      telescope: Telescope
-      valet: Valet
-  api/10.x: 'API Documentation'
+    Prologue:
+        pages:
+            releases: 'Release Notes'
+            upgrade: 'Upgrade Guide'
+            contributions: 'Contribution Guide'
+    'Getting Started':
+        pages:
+            installation: Installation
+            configuration: Configuration
+            structure: 'Directory Structure'
+            frontend: Frontend
+            starter-kits: 'Starter Kits'
+            deployment: Deployment
+    'Architecture Concepts':
+        pages:
+            lifecycle: 'Request Lifecycle'
+            container: 'Service Container'
+            providers: 'Service Providers'
+            facades: Facades
+    'The Basics':
+        pages:
+            routing: Routing
+            middleware: Middleware
+            csrf: 'CSRF Protection'
+            controllers: Controllers
+            requests: Requests
+            responses: Responses
+            views: Views
+            blade: 'Blade Templates'
+            vite: 'Asset Bundling'
+            urls: 'URL Generation'
+            session: Session
+            validation: Validation
+            errors: 'Error Handling'
+            logging: Logging
+    'Digging Deeper':
+        pages:
+            artisan: 'Artisan Console'
+            broadcasting: Broadcasting
+            cache: Cache
+            collections: Collections
+            contracts: Contracts
+            events: Events
+            filesystem: 'File Storage'
+            helpers: Helpers
+            http-client: 'HTTP Client'
+            localization: Localization
+            mail: Mail
+            notifications: Notifications
+            packages: 'Package Development'
+            processes: Processes
+            queues: Queues
+            rate-limiting: 'Rate Limiting'
+            scheduling: 'Task Scheduling'
+    Security:
+        pages:
+            authentication: Authentication
+            authorization: Authorization
+            verification: 'Email Verification'
+            encryption: Encryption
+            hashing: Hashing
+            passwords: 'Password Reset'
+    Database:
+        pages:
+            database: 'Getting Started'
+            queries: 'Query Builder'
+            pagination: Pagination
+            migrations: Migrations
+            seeding: Seeding
+            redis: Redis
+    'Eloquent ORM':
+        pages:
+            eloquent: 'Getting Started'
+            eloquent-relationships: Relationships
+            eloquent-collections: Collections
+            eloquent-mutators: 'Mutators / Casts'
+            eloquent-resources: 'API Resources'
+            eloquent-serialization: Serialization
+            eloquent-factories: Factories
+    Testing:
+        pages:
+            testing: 'Getting Started'
+            http-tests: 'HTTP Tests'
+            console-tests: 'Console Tests'
+            dusk: 'Browser Tests'
+            database-testing: Database
+            mocking: Mocking
+    Packages:
+        pages:
+            'starter-kits#laravel-breeze': Breeze
+            billing: 'Cashier (Stripe)'
+            cashier-paddle: 'Cashier (Paddle)'
+            dusk: Dusk
+            envoy: Envoy
+            fortify: Fortify
+            homestead: Homestead
+            horizon: Horizon
+            'https://jetstream.laravel.com': Jetstream
+            mix: Mix
+            octane: Octane
+            passport: Passport
+            pennant: Pennant
+            pint: Pint
+            sail: Sail
+            sanctum: Sanctum
+            scout: Scout
+            socialite: Socialite
+            telescope: Telescope
+            valet: Valet
+    api/10.x: 'API Documentation'
